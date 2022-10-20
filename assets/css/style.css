@@ -21,11 +21,12 @@
 body{
     font-family: 'Poppins', sans-serif;
     min-height: 100vh;
-    background-color: var(--bg-color);
+    
     color: var(--text-color);
 }
 
 header{
+    background-color: var(--bg-color);
     position: fixed;
     width: 100%;
     top: 0;
@@ -34,8 +35,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: transparent;
-    padding: 28px 12%;
+    padding: 50px 12%;
     transition: all .50s ease;
 }
 
@@ -73,7 +73,6 @@ header .menu .menu-item .menu-link.selecionado{
 }
 
 header .menu .menu-item .submenu{
-    width: 100%;
     position: absolute;
     z-index: 999;
     display: none;
@@ -84,6 +83,7 @@ header .menu .menu-item:hover .submenu{
     margin-top: .5%;
     margin-left: 2%;
     padding: 5px;
+    background-color: var(--bg-color);
     
 }
 
@@ -91,6 +91,8 @@ header .menu .menu-item:hover .submenu .submenu-link{
     color: var(--text-color);
     font-size: 1.1em;
     transition: all .50s ease;
+    background-color: green;
+    padding-bottom: 20px;
 }
 
 header .menu-programador{
@@ -176,3 +178,18 @@ header .menu-programador #menu-icon{
     }
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
