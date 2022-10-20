@@ -111,6 +111,10 @@ header .menu-programador .perfil:hover{
     color: var(--main-color);
 }
 
+header .menu-programador .perfil.selecionado{
+    color: var(--main-color);
+}
+
 header .menu-programador #menu-icon{
     font-size: 35px;
     color: var(--text-color);
