@@ -35,7 +35,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 50px 12%;
+    padding: 35px 12%;
     transition: all .50s ease;
 }
 
@@ -91,7 +91,6 @@ header .menu .menu-item:hover .submenu .submenu-link{
     color: var(--text-color);
     font-size: 1.1em;
     transition: all .50s ease;
-    background-color: green;
     padding-bottom: 20px;
 }
 
@@ -179,7 +178,199 @@ header .menu-programador #menu-icon{
 
 }
 
+/*
+    Estilo para informação destacada
+*/
 
+.noticia-destaque{
+    background: var(--bg-color);
+    height: 120vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.linha{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2% 5%;
+}
+
+.linha .coluna1, .linha .coluna2{
+    padding-right: 50px;
+}
+
+.coluna1 .coluna1-titulo{
+    font-size: 60px;
+    margin-bottom: 10px;
+}
+
+.coluna1 .coluna1-paragrafo{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.coluna1 .noticia-destaque-botao{
+    display: inline-block;
+    margin-top: 5px;
+    padding: 12px 50px;
+    border-radius: 20px;
+    border-style: none;
+    color: var(--text-color);
+    background: var(--main-color);
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.coluna1 .noticia-destaque-botao:hover{
+    background: transparent;
+    border: 1px solid var(--main-color);
+    color: var(--main-color);
+}
+
+@media screen and (max-width: 980px) {
+    .noticia-destaque{
+        height: 50vh;
+        width: 100%;
+    }
+
+    .coluna2 img{
+        width: 200px;
+    }
+
+    .coluna1 .coluna1-titulo{
+        font-size: 30px;
+    }
+
+    .coluna1 .coluna1-paragrafo{
+        font-size: 17px;
+    }
+
+    .linha{
+        margin-top: 80px;
+    }
+}
+
+
+/*
+    Estilo para os cards
+*/
+
+.secoes-cards {
+    background: var(--bg-color);
+    height: 180vh;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: #434343;
+
+    font-size: 16px;
+}
+
+main.cards {
+    display: flex;
+    padding: 32px;
+}
+
+main.cards section.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background: white;
+    padding: 1rem 1.5rem;
+    border-radius: 8px;
+    max-height: 468px;
+    margin-left: 32px;
+}
+
+main.cards section.card:first-child {
+    margin-left: 0;
+}
+
+main.cards section.card .icon {
+    width: 64px;
+    height: 64px;
+}
+
+main.cards section.card img {
+    width: 100%;
+}
+
+main.cards section.card h3 {
+    font-size: 100%;
+    margin: 16px 0;
+}
+
+main.cards section.card span {
+    font-weight: 300;
+    max-width: 240px;
+    font-size: 80%;
+    margin-bottom: 16px;
+}
+
+main.cards section.card button {
+    padding: 0.5rem 1rem;
+    text-transform: uppercase;
+    border-radius: 32px;
+    border: 0;
+    cursor: pointer;
+    font-size: 80%;
+    font-weight: 500;
+    color: #fff;
+    margin-bottom: 16px 0;
+}
+
+main.cards section.card.contact button {
+    background: linear-gradient(to right, #9F66FF, #DFCBFF);
+}
+main.cards section.card.shop button {
+    background: linear-gradient(to right, #3E8AFF, #BBDEFF);
+}
+main.cards section.card.about button {
+    background: linear-gradient(to right, #FE5F8F, #FFC7D9);
+}
+main.cards section.card.mais button {
+    background: linear-gradient(to right, #548ad1, #ee6363);
+}
+
+main.cards section.card.contact {
+    box-shadow: 20px 20px 50px -30px #DBC4FF;
+}
+main.cards section.card.shop {
+    box-shadow: 20px 20px 50px -30px #AFD6FF;
+}
+main.cards section.card.about {
+    box-shadow: 20px 20px 50px -30px #FFC1D5;
+}
+main.cards section.card.about {
+    box-shadow: 20px 20px 50px -30px #548ad1;
+}
+
+@media screen and (max-width: 720px) {
+    main.cards {
+        flex-direction: column;
+    }
+
+    main.cards section.card {
+        margin-left: 0;
+        margin-bottom: 32px;
+    }
+
+    main.cards section.card:last-child {
+        margin-bottom: 0;
+    }
+
+    main.cards section.card button {
+        font-size: 70%;
+    }
+
+}
 
 
 
