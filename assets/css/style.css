@@ -5,3 +5,170 @@
 ***************************************************/
 
 /* Menu para todas as páginas */
+:root{
+    --bg-color: #222327;
+    --text-color: #fff;
+    --main-color: #29fd53;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    min-height: 100vh;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+
+header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: transparent;
+    padding: 28px 12%;
+    transition: all .50s ease;
+}
+
+header .logotipo{
+    display: flex;
+    align-items: center;
+}
+
+header .logotipo i{
+    color: var(--main-color);
+    font-size: 30px;
+    margin-right: 3px;
+}
+
+header .menu{
+    display: flex;
+}
+
+header .menu .menu-item .menu-link{
+    color: var(--text-color);
+    font-size: 1.1em;
+    font-weight: 500;
+    padding: 5px 0px;
+    margin: 0px 30px;
+    transition: all .50s ease;
+}
+
+header .menu .menu-item .menu-link:hover,
+header .menu .menu-item:hover .submenu .submenu-link:hover{
+    color: var(--main-color);
+}
+
+header .menu .menu-item .menu-link.selecionado{
+    color: var(--main-color);
+}
+
+header .menu .menu-item .submenu{
+    width: 100%;
+    position: absolute;
+    z-index: 999;
+    display: none;
+}
+
+header .menu .menu-item:hover .submenu{
+    display: block;
+    margin-top: .5%;
+    margin-left: 2%;
+    padding: 5px;
+    
+}
+
+header .menu .menu-item:hover .submenu .submenu-link{
+    color: var(--text-color);
+    font-size: 1.1em;
+    transition: all .50s ease;
+}
+
+header .menu-programador{
+    display: flex;
+    align-items: center;
+}
+
+header .menu-programador .perfil{
+    margin-right: 25px;
+    margin-left: 10px;
+    color: var(--text-color);
+    font-size: 1.1rem;
+    font-weight: 500;
+    transition: all .50s ease; 
+}
+
+header .menu-programador .perfil:hover{
+    color: var(--main-color);
+}
+
+header .menu-programador #menu-icon{
+    font-size: 35px;
+    color: var(--text-color);
+    cursor: pointer;
+    z-index: 1001;
+    display: none;
+}
+
+@media (max-width: 1280px) {
+    header{
+        padding: 14px 2%;
+        transition: .2s;
+    }
+
+    .menu a{
+        padding: 5px 0px;
+        margin: 0px 20px;
+    }
+
+}
+
+@media (max-width: 1090px) {
+    header .menu-programador #menu-icon{
+        display: block;
+    }
+
+    .menu{
+        position: absolute;
+        top: 100%;
+        right: -100%;
+        width: 270px;
+        height: 29vh;
+        background: var(--main-color);
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        border-radius: 10px;
+        transition: all .50s ease;
+    }
+
+    .menu a{
+        display: block;
+        margin: 12px 0px;
+        padding: 0px 25px;
+        transition: all .50s ease;
+    }
+
+    .menu a:hover{
+        color: var(--text-color);
+        transform: translateY(5px);
+    }
+
+    .menu a.selecionado{
+        color: var(--text-color);
+    }
+
+    .menu.abrir{
+        right: 2%;
+    }
+
+}
