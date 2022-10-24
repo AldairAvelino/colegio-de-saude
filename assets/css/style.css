@@ -147,7 +147,7 @@ header .menu-programador #menu-icon{
         position: absolute;
         top: 100%;
         right: -100%;
-        width: 270px;
+        width: 200px;
         height: 29vh;
         background: var(--main-color);
         display: flex;
