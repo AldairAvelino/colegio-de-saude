@@ -5,12 +5,7 @@
 ***************************************************/
 
 /* Menu para todas as páginas */
-:root{
-    --bg-color: #222327;
-    --text-color: #fff;
-    --main-color: #29fd53;
-    --sub-main-color: #2f3034;
-}
+@import url('variaveis.css');
 
 *{
     margin: 0;
@@ -296,6 +291,14 @@ header .menu-programador #menu-icon{
 /*
     Estilo para os cards
 */
+
+.noticias-card .noticias-card-titulo{
+    color: var(--text-color);
+    text-align: center;
+    background: var(--bg-color);
+    font-size: 2rem;
+    margin-top: 150px;
+}
 
 .secoes-cards {
     background: var(--bg-color);
