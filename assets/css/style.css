@@ -255,13 +255,51 @@ header .menu-programador #menu-icon{
 }
 
 
+
+/*
+    ESTILOS PARA NOTÍCIA SUB DESTACADA
+*/
+
+.noticia-sub-destaque{
+    background: var(--text-color);
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.linha{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2% 5%;
+}
+
+.linha .coluna1, .linha .coluna2{
+    padding-right: 50px;
+}
+
+.coluna1 .coluna1-titulo-sub-destaque{
+    font-size: 60px;
+    margin-bottom: 10px;
+    color: var(--sub-main-color);
+}
+
+.coluna1 .coluna1-paragrafo-sub-destaque{
+    font-size: 25px;
+    margin-bottom: 20px;
+    color: var(--sub-main-color);
+}
+
+
 /*
     Estilo para os cards
 */
 
 .secoes-cards {
     background: var(--bg-color);
-    height: 180vh;
+    height: 65vh;
     width: 100%;
 
     display: flex;
@@ -327,30 +365,19 @@ main.cards section.card button {
     margin-bottom: 16px 0;
 }
 
-main.cards section.card.contact button {
-    background: linear-gradient(to right, #9F66FF, #DFCBFF);
-}
-main.cards section.card.shop button {
-    background: linear-gradient(to right, #3E8AFF, #BBDEFF);
-}
-main.cards section.card.about button {
-    background: linear-gradient(to right, #FE5F8F, #FFC7D9);
-}
-main.cards section.card.mais button {
-    background: linear-gradient(to right, #548ad1, #ee6363);
+main.cards section.card.ver button {
+    background: var(--main-color);
+    color: white;
+    text-transform: capitalize;
+    padding: 5px 12.5%;
 }
 
-main.cards section.card.contact {
-    box-shadow: 20px 20px 50px -30px #DBC4FF;
-}
-main.cards section.card.shop {
-    box-shadow: 20px 20px 50px -30px #AFD6FF;
-}
-main.cards section.card.about {
-    box-shadow: 20px 20px 50px -30px #FFC1D5;
-}
-main.cards section.card.about {
-    box-shadow: 20px 20px 50px -30px #548ad1;
+main.cards section.card.ver button:hover{
+    background: var(--text-color);
+    border: 1px solid var(--main-color);
+    color: var(--sub-main-color);
+    text-transform: capitalize;
+    padding: 5px 12.5%;
 }
 
 @media screen and (max-width: 720px) {
@@ -373,15 +400,111 @@ main.cards section.card.about {
 
 }
 
+/*
+    ESTILO PARA O RODAPÉ
+*/
 
+footer{
+    background: var(--text-color);
+    padding: 40px 0;
+}
 
+.container-footer{
+    max-width: 1400px;
+    padding: 0 4%;
+    margin: auto;
+}
 
+.row-footer{
+    display: flex;
+    flex-wrap: wrap;
+}
 
+.footer-col{
+    width: 25%;
+    padding: 0 15px;
+}
 
+.footer-col h4{
+    font-size: 22px;
+    color: var(--sub-main-color);
+    margin-bottom: 20px;
+    font-weight: 500;
+    position: relative;
+    text-transform: capitalize;
+}
 
+.footer-col ul{
+    list-style: none;
+}
 
+.footer-col ul li{
+    margin: 10px 0;
+}
 
+.footer-col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: var(--sub-main-color);
+    text-decoration: none;
+    font-weight: 300;
+    display: block;
+    transition: all 0.3s ease;
+}
 
+.footer-col ul li a:hover{
+    color: #cecdcd;
+    padding-left: 10px;
+    text-decoration: underline;
+}
 
+.footer-col .form-sub input{
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    outline: none;
+    border: 1px solid var(--sub-main-color);
+    color: var(--sub-main-color);
+    background-color: transparent;
+}
 
+.footer-col .form-sub input::placeholder{
+    color: var(--sub-main-color);
+}
 
+.footer-col .form-sub button{
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px; 
+    font-size: 17px;
+    outline: none;
+    border: 1px solid var(--text-color);
+    cursor: pointer;
+    color: var(--text-color);
+    border-radius: 3px;
+    font-weight: bold;
+    background-color: var(--main-color);        
+}
+
+.footer-col .form-sub button:hover{
+    border: 1px solid var(--main-color);
+    background-color:var(--text-color);        
+    cursor: pointer;
+    color: #000;
+    border-radius: 3px;
+    font-weight: bold;
+}
+
+/* Responsivo */
+@media (max-width: 800px) {
+    .footer-col{
+        width: 50%;
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width:600px) {
+    .footer-col{
+        width: 100%;
+    }
+}
