@@ -95,11 +95,14 @@
 @media screen and (max-width: 720px) {
     main.cards {
         flex-direction: column;
+        background-color: red;
+        margin-top: 100px;
     }
 
     main.cards section.card {
         margin-left: 0;
         margin-bottom: 32px;
+        
     }
 
     main.cards section.card:last-child {
@@ -111,6 +114,31 @@
     }
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media (max-width: 750px) {
     .seccion-perfil-usuario .lista-datos {
