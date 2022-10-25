@@ -73,15 +73,15 @@
     }
 
     .coluna2 img{
-        width: 200px;
+        display: none;
     }
 
-    .coluna1 .coluna1-titulo{
-        font-size: 30px;
+    .noticia-destaque .linha .coluna1 .coluna1-titulo{
+        font-size: 24px;
     }
 
-    .coluna1 .coluna1-paragrafo{
-        font-size: 17px;
+    .noticia-destaque .linha .coluna1 .coluna1-paragrafo{
+        font-size: 16px;
     }
 
     .linha{
