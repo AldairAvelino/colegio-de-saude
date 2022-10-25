@@ -186,7 +186,7 @@ header .menu-programador #menu-icon{
 
 .noticia-sub-destaque{
     background: var(--text-color);
-    height: 80vh;
+    height: 85vh;
     width: 100%;
     display: flex;
     justify-content: center;
