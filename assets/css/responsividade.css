@@ -78,7 +78,8 @@
 
     .noticia-destaque .linha .coluna1 .coluna1-titulo,
     .noticia-sub-destaque .linha .coluna1 .coluna1-titulo-sub-destaque{
-        font-size: 24px;
+      margin-top: 80px;
+      font-size: 24px;
     }
 
     .noticia-destaque .linha .coluna1 .coluna1-paragrafo{
@@ -87,7 +88,7 @@
 
     .linha{
       background-color: red;
-        margin-top: 40px;
+        margin-top: 80px;
     }
 }
 
