@@ -120,60 +120,6 @@ header .menu-programador #menu-icon{
     display: none;
 }
 
-@media (max-width: 1280px) {
-    header{
-        padding: 14px 2%;
-        transition: .2s;
-    }
-
-    .menu a{
-        padding: 5px 0px;
-        margin: 0px 20px;
-    }
-
-}
-
-@media (max-width: 1090px) {
-    header .menu-programador #menu-icon{
-        display: block;
-    }
-
-    .menu{
-        position: absolute;
-        top: 100%;
-        right: -100%;
-        width: 200px;
-        height: 29vh;
-        background: var(--main-color);
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-        border-radius: 10px;
-        transition: all .50s ease;
-    }
-
-    .menu a{
-        display: block;
-        margin: 12px 0px;
-        padding: 0px 25px;
-        transition: all .50s ease;
-    }
-
-    .menu a:hover{
-        color: var(--text-color);
-        transform: translateY(5px);
-    }
-
-    .menu a.selecionado{
-        color: var(--text-color);
-    }
-
-    .menu.abrir{
-        right: 2%;
-    }
-
-}
-
 /*
     Estilo para informação destacada
 */
@@ -225,31 +171,6 @@ header .menu-programador #menu-icon{
     border: 1px solid var(--main-color);
     color: var(--main-color);
 }
-
-@media screen and (max-width: 980px) {
-    .noticia-destaque{
-        height: 50vh;
-        width: 100%;
-    }
-
-    .coluna2 img{
-        width: 200px;
-    }
-
-    .coluna1 .coluna1-titulo{
-        font-size: 30px;
-    }
-
-    .coluna1 .coluna1-paragrafo{
-        font-size: 17px;
-    }
-
-    .linha{
-        margin-top: 80px;
-    }
-}
-
-
 
 /*
     ESTILOS PARA NOTÍCIA SUB DESTACADA
@@ -383,26 +304,6 @@ main.cards section.card.ver button:hover{
     padding: 5px 12.5%;
 }
 
-@media screen and (max-width: 720px) {
-    main.cards {
-        flex-direction: column;
-    }
-
-    main.cards section.card {
-        margin-left: 0;
-        margin-bottom: 32px;
-    }
-
-    main.cards section.card:last-child {
-        margin-bottom: 0;
-    }
-
-    main.cards section.card button {
-        font-size: 70%;
-    }
-
-}
-
 /*
     ESTILO PARA O RODAPÉ
 */
@@ -498,16 +399,3 @@ footer{
     font-weight: bold;
 }
 
-/* Responsivo */
-@media (max-width: 800px) {
-    .footer-col{
-        width: 50%;
-        margin-bottom: 30px;
-    }
-}
-
-@media (max-width:600px) {
-    .footer-col{
-        width: 100%;
-    }
-}
