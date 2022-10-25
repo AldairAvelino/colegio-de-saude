@@ -55,9 +55,9 @@
 
 @media screen and (max-width: 980px) {
     .noticia-destaque{
-        height: 70vh;
+        height: 72vh;
         width: 100%;
-        padding-top: 80px;
+        padding-top: 85px;
         padding-bottom: 70px;
     }   
 
