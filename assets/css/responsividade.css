@@ -72,9 +72,8 @@
 }
 
 @media screen and (max-width: 980px) {
-    .noticia-destaque,
-    .noticia-sub-destaque{
-        height: 85vh;
+    .noticia-destaque{
+        height: 50vh;
         width: 100%;
     }
 
