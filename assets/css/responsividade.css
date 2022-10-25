@@ -53,6 +53,10 @@
 
 }
 
+/*
+  MEDIA QUERIES PARA AS NOTÍCIAS
+*/
+
 @media screen and (max-width: 980px) {
   .noticia-destaque{
       height: 72vh;
@@ -77,74 +81,51 @@
   }
 
   .noticia-sub-destaque{
-    background-color: yellow;
-  }
-  .noticia-sub-destaque{
-    background-color: green;
     height: 72vh;
     width: 100%;
-    padding-top: 90px;
+    padding-top: 80px;
     padding-bottom: 70px;
   }
 }
 
+/*
+  MEDIA QUERIES PARA OS CARDS
+*/
+
 @media screen and (max-width: 720px) {
+  .secoes-cards{
+    height: 90vh;
+  }
+
   main.cards {
-      /* flex-direction: column;
+      flex-direction: column;
       background-color: var(--bg-color);
       width: 100%;
       margin-top: 170px;
       margin-bottom: 100px;
-      height: 90vh; */
-    display: none;
-
   }
 
   main.cards section.card {
-    /* margin-left: 0;
-    margin-bottom: 32px; */
-    display: none;
+    margin-left: 0;
+    margin-bottom: 32px;
 
   }
 
   main.cards section.card:last-child {
-      /* margin-bottom: 0; */
-    display: none;
+    margin-bottom: 0;
 
   }
 
   main.cards section.card button {
-      /* font-size: 70%; */
-    display: none;
+    font-size: 70%;
 
   }
 
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/*
+  MEDIA QUERIES PARA PERFIL
+*/
 
 @media (max-width: 750px) {
   .seccion-perfil-usuario .lista-datos {
@@ -161,57 +142,55 @@
   }
 }
 
+/*
+  MEDIA QUERIES PARA O CONTACTO
+*/
+
 @media (max-width: 850px) {
   .form {
-    /* grid-template-columns: 1fr; */
-    display: none;
+    grid-template-columns: 1fr;
 
   }
 
   .contact-info:before {
-    /* bottom: initial;
+    bottom: initial;
     top: -75px;
     right: 65px;
-    transform: scale(0.95); */
-    display: none;
+    transform: scale(0.95);
 
   }
 
   .contact-form:before {
-    /* top: -13px;
+    top: -13px;
     left: initial;
-    right: 70px; */
-    display: none;
-
+    right: 70px;
   }
 
   .square {
-    /* transform: translate(140%, 43%);
-    height: 350px; */
-    display: none;
+    transform: translate(140%, 43%);
+    height: 350px;
 
   }
 
   .big-circle {
-    /* bottom: 75%;
+    bottom: 75%;
     transform: scale(0.9) translate(-40%, 30%);
-    right: 50%; */
-    display: none;
+    right: 50%;
 
   }
 
   .text {
-    /* margin: 1rem 0 1.5rem 0; */
-    display: none;
-
+    margin: 1rem 0 1.5rem 0;
   }
 
   .social-media {
-    /* padding: 1.5rem 0 0 0; */
-    display: none;
-
+    padding: 1.5rem 0 0 0;
   }
 }
+
+/*
+  MEDIA QUERIES PARA O CONTACTO
+*/
 
 @media (max-width: 480px) {
   .container {
@@ -261,22 +240,14 @@
   }
 }
 
-
-
-
-
-
-
-
-
-
+/*
+  MEDIA QUERIES PARA O FOOTER
+*/
 
 @media (max-width: 800px) {
 
   footer{
-    /* background-color: red;
-    margin-top: 150px; */
-    display: none;
+    margin-top: 150px;
 
   }
     .footer-col{
