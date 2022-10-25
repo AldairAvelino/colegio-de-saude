@@ -68,7 +68,7 @@
 
 @media screen and (max-width: 980px) {
     .noticia-destaque{
-        height: 50vh;
+        height: 70vh;
         width: 100%;
     }
 
@@ -76,7 +76,8 @@
         display: none;
     }
 
-    .noticia-destaque .linha .coluna1 .coluna1-titulo{
+    .noticia-destaque .linha .coluna1 .coluna1-titulo,
+    .noticia-sub-destaque .linha .coluna1 .coluna1-titulo-sub-destaque{
         font-size: 24px;
     }
 
@@ -85,7 +86,8 @@
     }
 
     .linha{
-        margin-top: 80px;
+      background-color: red;
+        margin-top: 40px;
     }
 }
 
