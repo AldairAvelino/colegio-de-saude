@@ -73,8 +73,9 @@
 
 @media screen and (max-width: 980px) {
     .noticia-destaque{
-        height: 60vh;
+        height: 75vh;
         width: 100%;
+        padding-bottom: 60px;
     }
 
     .coluna2 img{
