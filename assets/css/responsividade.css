@@ -59,7 +59,7 @@
         width: 100%;
         padding-top: 90px;
         padding-bottom: 70px;
-    }   
+    }
 
     .coluna2 img{
         display: none;
@@ -77,7 +77,11 @@
     }
 
     .noticia-sub-destaque{
-      background-color: yellow;
+      background-color: red;
+      height: 72vh;
+      width: 100%;
+      padding-top: 90px;
+      padding-bottom: 70px;
     }
 }
 
