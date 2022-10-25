@@ -1,5 +1,10 @@
 /* Responsivo */
 @media (max-width: 800px) {
+
+  footer{
+    background-color: red;
+    margin-top: 100px;
+  }
     .footer-col{
         width: 50%;
         margin-bottom: 30px;
@@ -68,7 +73,7 @@
 
 @media screen and (max-width: 980px) {
     .noticia-destaque{
-        height: 70vh;
+        height: 100vh;
         width: 100%;
     }
 
@@ -100,9 +105,8 @@
     }
 
     main.cards section.card {
-        margin-left: 0;
-        margin-bottom: 32px;
-        
+      margin-left: 0;
+      margin-bottom: 32px;
     }
 
     main.cards section.card:last-child {
