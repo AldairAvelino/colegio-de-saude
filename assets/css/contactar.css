@@ -91,7 +91,12 @@
     position: relative;
     margin: 1rem 0;
   }
-  
+
+input::placeholder,
+textarea::placeholder{
+  color: #fff;
+}
+
   .input {
     width: 100%;
     outline: none;
