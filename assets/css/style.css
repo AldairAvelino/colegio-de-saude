@@ -408,7 +408,7 @@ main.cards section.card.ver button:hover{
 */
 
 footer{
-    background: var(--text-color);
+    background: var(--bg-color);
     padding: 40px 0;
 }
 
@@ -430,7 +430,7 @@ footer{
 
 .footer-col h4{
     font-size: 22px;
-    color: var(--sub-main-color);
+    color: var(--text-color);
     margin-bottom: 20px;
     font-weight: 500;
     position: relative;
@@ -448,7 +448,7 @@ footer{
 .footer-col ul li a{
     font-size: 16px;
     text-transform: capitalize;
-    color: var(--sub-main-color);
+    color: #fefefe;
     text-decoration: none;
     font-weight: 300;
     display: block;
@@ -466,13 +466,13 @@ footer{
     padding: 10px;
     font-size: 15px;
     outline: none;
-    border: 1px solid var(--sub-main-color);
-    color: var(--sub-main-color);
+    border: 1px solid #fefefe;
+    color: var(--text-color);
     background-color: transparent;
 }
 
 .footer-col .form-sub input::placeholder{
-    color: var(--sub-main-color);
+    color: #fefefe;
 }
 
 .footer-col .form-sub button{
@@ -481,7 +481,7 @@ footer{
     padding: 10px; 
     font-size: 17px;
     outline: none;
-    border: 1px solid var(--text-color);
+    border: none;
     cursor: pointer;
     color: var(--text-color);
     border-radius: 3px;
@@ -490,7 +490,7 @@ footer{
 }
 
 .footer-col .form-sub button:hover{
-    border: 1px solid var(--main-color);
+    border: none;
     background-color:var(--text-color);        
     cursor: pointer;
     color: #000;
