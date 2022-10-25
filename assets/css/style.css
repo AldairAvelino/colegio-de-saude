@@ -134,6 +134,11 @@ header .menu-programador #menu-icon{
     align-items: center;
 }
 
+.noticia-destaque .linha .coluna1 .coluna1-titulo,
+.noticia-destaque .linha .coluna1 .coluna1-paragrafo{
+    color: var(--text-color);
+}
+
 .linha{
     display: flex;
     justify-content: space-between;
@@ -145,13 +150,15 @@ header .menu-programador #menu-icon{
     padding-right: 50px;
 }
 
-.coluna1 .coluna1-titulo{
-    font-size: 60px;
+.noticia-destaque .linha .coluna1 .coluna1-titulo,
+.noticia-sub-destaque .linha .coluna1 .coluna1-titulo-sub-destaque{
+    font-size: 50px;
     margin-bottom: 10px;
 }
 
-.coluna1 .coluna1-paragrafo{
-    font-size: 25px;
+.noticia-destaque .linha .coluna1 .coluna1-paragrafo,
+.noticia-sub-destaque .linha .coluna1 .coluna1-paragrafo-sub-destaque{
+    font-size: 20px;
     margin-bottom: 20px;
 }
 
@@ -226,19 +233,17 @@ header .menu-programador #menu-icon{
     background: var(--bg-color);
     height: 65vh;
     width: 100%;
-
     display: flex;
     justify-content: center;
     align-items: center;
-
     color: #434343;
-
     font-size: 16px;
 }
 
 main.cards {
     display: flex;
-    padding: 32px;
+    padding: 32px; 
+    font-family: 'Poppins', sans-serif;
 }
 
 main.cards section.card {
@@ -262,8 +267,9 @@ main.cards section.card .icon {
     height: 64px;
 }
 
-main.cards section.card img {
+main.cards section.card .icon i {
     width: 100%;
+    height: 10%;
 }
 
 main.cards section.card h3 {
