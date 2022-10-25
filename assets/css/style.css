@@ -6,6 +6,7 @@
 
 /* Menu para todas as páginas */
 @import url('variaveis.css');
+@import url('responsividade.css');
 
 *{
     margin: 0;
