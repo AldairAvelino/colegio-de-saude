@@ -102,8 +102,10 @@
 @media screen and (max-width: 720px) {
     main.cards {
         flex-direction: column;
-        background-color: red;
+        background-color: var(--bg-color);
+        width: 100%;
         margin-top: 100px;
+        margin-bottom: 100px;
     }
 
     main.cards section.card {
