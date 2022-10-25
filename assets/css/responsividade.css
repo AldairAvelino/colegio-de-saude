@@ -78,7 +78,11 @@
         padding-bottom: 100px;
     }
 
-    .noticia-sub-destaque{}    
+    .noticia-sub-destaque{
+        height: 65vh;
+        width: 100%;
+        background-color: green;
+    }    
 
     .coluna2 img{
         display: none;
