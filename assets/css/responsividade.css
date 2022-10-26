@@ -81,11 +81,11 @@
   }
 
   .noticia-sub-destaque{
-    height: 72vh;
+    height: 85vh;
     width: 100%;
-    padding-top: 40px;
-    margin-bottom: 130px;
-    background-color: greenyellow;
+    padding-top: 80px;
+    padding-bottom: 150px;
+    background-color: red;
   }
 }
 
@@ -97,7 +97,7 @@
   .secoes-cards{
     height: 85vh;
     padding-top: 150px;
-    padding-bottom: 250px;
+    padding-bottom: 170px;
   }
 
   main.cards {
