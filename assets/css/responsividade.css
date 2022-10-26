@@ -94,7 +94,7 @@
 
 @media screen and (max-width: 720px) {
   .secoes-cards{
-    height: 100vh;
+    height: 85vh;
     padding-top: 150px;
     padding-bottom: 170px;
   }
