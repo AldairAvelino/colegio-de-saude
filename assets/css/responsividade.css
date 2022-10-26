@@ -81,10 +81,10 @@
   }
 
   .noticia-sub-destaque{
-    height: 85vh;
+    height: 72vh;
     width: 100%;
-    padding-top: 80px;
-    padding-bottom: 150px;
+    padding-top: 90px;
+    padding-bottom: 70px;
   }
 }
 
@@ -101,7 +101,7 @@
 
   main.cards {
       flex-direction: column;
-      background-color: var(--bg-color);
+      background-color: var(--main-color);
       width: 100%;
       margin-top: 170px;
       margin-bottom: 100px;
