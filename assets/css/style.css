@@ -66,7 +66,7 @@ header .menu .menu-item:hover .submenu .submenu-link:hover{
 }
 
 header .menu .menu-item .menu-link.selecionado{
-    color: var(--main-color);
+    color: var(--sub-main-color);
 }
 
 header .menu .menu-item .submenu{

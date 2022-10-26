@@ -61,22 +61,25 @@
   .noticia-destaque{
       height: 72vh;
       width: 100%;
-      padding-top: 90px;
-      padding-bottom: 70px;
+      padding-top: 120px;
+      padding-bottom: 95px;
   }
 
-  .coluna2 img{
+  .coluna2 img,
+  .jornal-coluna2 img{
       display: none;
   }
 
   .noticia-destaque .linha .coluna1 .coluna1-titulo,
-  .noticia-sub-destaque .linha .coluna1 .coluna1-titulo-sub-destaque{
+  .noticia-sub-destaque .linha .coluna1 .coluna1-titulo-sub-destaque,
+  .jornal-noticia-destaque .jornal-linha .jornal-coluna1 .jornal-coluna1-titulo{
     margin-top: 40px;
     font-size: 24px;
   }
 
   .noticia-destaque .linha .coluna1 .coluna1-paragrafo,
-  .noticia-sub-destaque .linha .coluna1 .coluna1-paragrafo-sub-destaque{
+  .noticia-sub-destaque .linha .coluna1 .coluna1-paragrafo-sub-destaque,
+  .jornal-noticia-destaque .jornal-linha .jornal-coluna1 .jornal-coluna1-paragrafo{
       font-size: 16px;
   }
 
@@ -84,8 +87,7 @@
     height: 85vh;
     width: 100%;
     padding-top: 80px;
-    padding-bottom: 175px;
-    background-color: red;
+    padding-bottom: 200px;
   }
 }
 
@@ -95,17 +97,17 @@
 
 @media screen and (max-width: 720px) {
   .secoes-cards{
-    height: 85vh;
+    height: 100vh;
     padding-top: 150px;
-    padding-bottom: 170px;
+    padding-bottom: 90px;
   }
 
   main.cards {
       flex-direction: column;
-      background-color: var(--main-color);
+      background-color: var(--bg-color);
       width: 100%;
       margin-top: 170px;
-      margin-bottom: 100px;
+      margin-bottom: 145px;
   }
 
   main.cards section.card {
@@ -196,6 +198,10 @@
 */
 
 @media (max-width: 480px) {
+  .wrapper-grid{
+    margin-bottom: -120px;
+  }
+  
   .container {
     padding: 1.5rem;
   }
