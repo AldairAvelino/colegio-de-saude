@@ -83,8 +83,9 @@
   .noticia-sub-destaque{
     height: 72vh;
     width: 100%;
-    padding-top: 45px;
-    padding-bottom: 130px;
+    padding-top: 40px;
+    margin-bottom: 130px;
+    background-color: greenyellow;
   }
 }
 
