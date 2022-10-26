@@ -84,7 +84,7 @@
     height: 85vh;
     width: 100%;
     padding-top: 80px;
-    padding-bottom: 170px;
+    padding-bottom: 200px;
   }
 }
 
@@ -94,9 +94,9 @@
 
 @media screen and (max-width: 720px) {
   .secoes-cards{
-    height: 90vh;
+    height: 100vh;
     padding-top: 80px;
-    padding-bottom: 170px;
+    padding-bottom: 200px;
   }
 
   main.cards {
